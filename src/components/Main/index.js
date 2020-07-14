@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePage from "../ProfilePage";
 import {
   Container,
   Header,
@@ -23,7 +24,7 @@ const Main = () => {
           <span>610 Grasnadas</span>
         </ProfileInfo>
       </Header>
-      {/* <ProfilePage /> */}
+      <ProfilePage />
       <BottomMenu>
         <HomeIcon />
         <SearchIcon />
