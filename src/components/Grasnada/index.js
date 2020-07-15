@@ -40,16 +40,15 @@ const Grasnada = () => {
           <ImageContent />
           <Icons>
             <Status>
-              <CommentIcon />
-              18
+              <CommentIcon />5
             </Status>
             <Status>
               <RegrasnIcon />
-              18
+              13
             </Status>
             <Status>
               <LikeIcon />
-              18
+              21
             </Status>
           </Icons>
         </Content>
