@@ -10,6 +10,10 @@ import {
   EmailIcon,
   FavoriteIcon,
   ProfileIcon,
+  Botside,
+  Avatar,
+  ProfileData,
+  ExitIcon,
 } from "./styles";
 
 const MenuBar = () => {
@@ -41,6 +45,14 @@ const MenuBar = () => {
           <span>Grasn</span>
         </Button>
       </Topside>
+      <Botside>
+        <Avatar />
+        <ProfileData>
+          <strong>Rodrigo Fernandes</strong>
+          <span>@rodrigo_fernandes</span>
+        </ProfileData>
+        <ExitIcon />
+      </Botside>
     </Container>
   );
 };
