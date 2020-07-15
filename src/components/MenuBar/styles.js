@@ -34,8 +34,8 @@ export const Topside = styled.div`
 `;
 
 export const Logo = styled(Grasner)`
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 20px;
 `;
 
@@ -56,7 +56,7 @@ export const MenuButton = styled.button`
     }
     padding-right: 15px;
   }
-  padding: 8px 0;
+  padding: 8px 10px;
   outline: 0;
   & + button {
     margin-top: 17px;

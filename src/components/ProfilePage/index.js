@@ -21,7 +21,15 @@ const ProfilePage = () => {
         <EditButton outlined>Edit profile</EditButton>
         <h1>Rodrigo Fernandes</h1>
         <h2>@rodrigo_fernandes</h2>
-        <p>Front-End Developer</p>
+        <p>
+          Welcome to Grasner, a Twitter clone! The design of this page will be
+          responsive, no matter what device you are seeing this in.
+          <br />
+          <br />
+          If you're on desktop, try making the window size smaller. The bar on
+          the right will disappear and the bar on the left will hide it's text
+          content.
+        </p>
         <ul>
           <li>
             <LocationIcon />

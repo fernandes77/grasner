@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
 import { LocationOn, Cake } from "../../styles/Icons";
-import Button from "../Button/Button";
 import ButtonOutlined from "../Button/ButtonOutlined";
 
 export const Container = styled.div`
@@ -9,7 +8,7 @@ export const Container = styled.div`
   max-height: 100%;
   overflow-y: auto;
   scrollbar-width: none;
-  -::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     display: none;
   }
 `;
